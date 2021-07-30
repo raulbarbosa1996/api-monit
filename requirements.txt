@@ -1,0 +1,6 @@
+flask
+flask_restful
+flask_script
+flask_migrate
+psycopg2-binary
+psycopg2
