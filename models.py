@@ -11,6 +11,33 @@ class Intents(Document):
         Policy=TextField(),
         Constraints=ListField(DictField(Mapping.build(
             Domains=ListField(DictField(Mapping.build(
+                Name=TextField(),
+                Domain=TextField(),
+                Action=TextField(),
+                Traffic_Type=TextField(),
+                Period=TextField(),
+                Limit=TextField(),
+                Source=TextField(),
+                Acess=ListField(TextField()),
+                Destination=TextField(),
+                Performance=IntegerField(),
+                Level=TextField(),
+                Bool=BooleanField()
+
+            ))),
+            Level=TextField(),
+            Bool=BooleanField()
+        )))
+
+    )))
+    '''
+    IntentType = TextField()
+    Intent_Target = TextField()
+    Intent_State=TextField()
+    Conditions = ListField(DictField(Mapping.build(
+        Policy=TextField(),
+        Constraints=ListField(DictField(Mapping.build(
+            Domains=ListField(DictField(Mapping.build(
                 Domain=TextField(),
                 Action=TextField(),
                 Traffic_Type=TextField(),
@@ -26,7 +53,7 @@ class Intents(Document):
             Bool=BooleanField()
         )))
 
-    )))
+    )))'''
 
     all = ViewField('intents', '''
         function (doc) {

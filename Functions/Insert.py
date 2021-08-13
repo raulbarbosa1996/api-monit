@@ -68,8 +68,20 @@ class Insert:
                             list_domains.append(domains[l].Bool)
                         except:
                             list_domains.append(None)
+                        try:
+                            list_domains.append(domains[l].Name)
+                        except:
+                            list_domains.append(None)
+                        try:
+                            list_domains.append(domains[l].Acess)
+                        except:
+                            list_domains.append(None)
+                        try:
+                            list_domains.append(domains[l].Performance)
+                        except:
+                            list_domains.append(None)
                         print(list_domains)
-                        post.Conditions[i].Constraints[j].Domains.append(Action=list_domains[0],Traffic_Type=list_domains[1],Period=list_domains[2],Domain=list_domains[3],Limit=list_domains[4],Source=list_domains[5],Destination=list_domains[6],Level=list_domains[7],Bool=list_domains[8])
+                        post.Conditions[i].Constraints[j].Domains.append(Action=list_domains[0],Traffic_Type=list_domains[1],Period=list_domains[2],Domain=list_domains[3],Limit=list_domains[4],Source=list_domains[5],Destination=list_domains[6],Level=list_domains[7],Bool=list_domains[8],Name=list_domains[9],Acess=list_domains[10],Performance=list_domains[11])
                 except:
                     print("No Domains")
         post.store()
