@@ -141,74 +141,14 @@ class Stats(Resource):
                             if res_.ok:
                                 print("Done")
 
-
-
-
-
-
-                        #curl --header "Content-Type: application/json" --request POST --data '{"Switch":"openflow:196100289772364","in-port":"101", "out-port":"12", "ipv4-src":"192.168.2.158", "ipv4-dst":"192.168.2.2", "tcp_src":"5100", "tcp_dst":"5200"}' http://127.0.0.1:5000/addFlowTCP
-
-
-
-            #Calcular Dijkstra para todos os nodes
-
-            #Guarda o custo do Node x para y
-            #blah=nx.all_pairs_dijkstra_path_length(G)
-
-            #Guarda o melhor caminho do Node X para o Node Y- neste caso para todos
-            #blah_b=nx.all_pairs_dijkstra_path(G)
-
-            #shortest_paths = dict(blah_b)
-            #print(shortest_paths)
-
-            #path = nx.all_pairs_shortest_path(G)
-            #print(dict(path))
-
-
-                #time.sleep(60.0 - ((time.time() - starttime) % 60.0))
     def post(self):
         data = request.json
         intent = json.loads(data, object_hook=lambda d: SimpleNamespace(**d))
-        #Obter Source e Target
-        '''
-        data_getData=GetDataForPath(data)
-        source,target=data_getData.getData()
-        print(source)
-        print(target)'''
+
 
         starttime = time.time()
         conta=0
         while True:
-
-            '''
-            url = "http://127.0.0.1:8181/restconf/operational/network-topology:network-topology"
-            res = requests.get(url, auth=HTTPBasicAuth('admin', 'admin'))
-            if(res.ok):
-                jData = json.loads(res.content)
-                #Chamar função com pesos para obter o caminho mais curto
-                funce = topologyInformationWWeight(jData)
-                G,color_map=funce.topologyInformation()
-                pos = nx.spring_layout(G)  # positions for all nodes
-                nx.draw(G, with_labels = True,pos=pos,node_color = color_map,font_size=7)
-    
-                path = nx.shortest_path(G,source=int(source),target=int(target),weight='weight')
-                print(path)
-                plt.clf()
-                path_edges = zip(path,path[1:])
-                path_edges = set(path_edges)
-    
-                #Chamar função sem peso para criar imagem interpretável
-                funce = topologyInformation(jData)
-                G_w_weight,color_map_w_weight=funce.topologyInformation()
-                pos_w_weight = nx.spring_layout(G_w_weight)
-                nx.draw(G_w_weight, with_labels = True,pos=pos_w_weight,node_color = color_map_w_weight,font_size=7)
-                nx.draw_networkx_edges(G_w_weight,pos_w_weight,edgelist=path_edges,edge_color='r',width=5)
-                nx.draw_networkx_nodes(G_w_weight,pos_w_weight,nodelist=path,node_color='r')
-                l,r = plt.xlim()
-                plt.xlim(l-1,r+1)
-                plt.savefig('tss.png', bbox_inches="tight")
-                plt.clf()
-                '''
             #Depois de conectar, otimizar
             url = "http://127.0.0.1:8181/restconf/operational/network-topology:network-topology"
             res = requests.get(url, auth=HTTPBasicAuth('admin', 'admin'))

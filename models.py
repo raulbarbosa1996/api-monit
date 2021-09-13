@@ -30,30 +30,7 @@ class Intents(Document):
         )))
 
     )))
-    '''
-    IntentType = TextField()
-    Intent_Target = TextField()
-    Intent_State=TextField()
-    Conditions = ListField(DictField(Mapping.build(
-        Policy=TextField(),
-        Constraints=ListField(DictField(Mapping.build(
-            Domains=ListField(DictField(Mapping.build(
-                Domain=TextField(),
-                Action=TextField(),
-                Traffic_Type=TextField(),
-                Period=TextField(),
-                Limit=TextField(),
-                Source=TextField(),
-                Destination=TextField(),
-                Level=TextField(),
-                Bool=BooleanField()
 
-            ))),
-            Level=TextField(),
-            Bool=BooleanField()
-        )))
-
-    )))'''
 
     all = ViewField('intents', '''
         function (doc) {
