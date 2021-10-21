@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12a25adc-acfa-4e94-a9f9-24cc28764b1d" name="Default Changelist" comment="Criação de serviços completa">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/filename.png" beforeDir="false" afterPath="$PROJECT_DIR$/filename.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/CreateService.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/CreateService.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Prioritys.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Prioritys.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Stats.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Stats.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tss.png" beforeDir="false" afterPath="$PROJECT_DIR$/tss.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/IntentResource.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/IntentResource.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tss.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +56,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Functions" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/va-intent-networking/api-monit" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -74,7 +73,7 @@
       <recent name="$PROJECT_DIR$/flaskext_" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.Flask (run.py)">
+  <component name="RunManager" selected="Flask server.sr-server">
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="sr-server" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -163,6 +162,22 @@
       <workItem from="1629108223677" duration="3631000" />
       <workItem from="1629366991557" duration="1210000" />
       <workItem from="1631543363092" duration="217000" />
+      <workItem from="1631546190889" duration="604000" />
+      <workItem from="1632146774324" duration="390000" />
+      <workItem from="1632153573192" duration="113000" />
+      <workItem from="1632217391808" duration="255000" />
+      <workItem from="1632491423832" duration="901000" />
+      <workItem from="1632738885544" duration="1853000" />
+      <workItem from="1632923434793" duration="140000" />
+      <workItem from="1633013217930" duration="883000" />
+      <workItem from="1633081210773" duration="22000" />
+      <workItem from="1633358695426" duration="3005000" />
+      <workItem from="1634136281166" duration="3828000" />
+      <workItem from="1634204204306" duration="12343000" />
+      <workItem from="1634291421985" duration="649000" />
+      <workItem from="1634653047767" duration="1555000" />
+      <workItem from="1634720503312" duration="16306000" />
+      <workItem from="1634804345624" duration="16680000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de serviços completa">
       <created>1628850975250</created>
