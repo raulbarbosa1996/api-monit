@@ -25,7 +25,7 @@ class topologyInformationWWeight():
                 for j in i["node"]:
                     node_id=j["node-id"].encode('ascii','ignore').decode("utf-8")
                     aux_node_id=node_id.split(':')
-                    print(aux_node_id[0])
+                    #print(aux_node_id[0])
                     if(aux_node_id[0]=='host'):
                         continue
                     color_map.append('yellow')
@@ -43,7 +43,7 @@ class topologyInformationWWeight():
                             id_h= ''.join(filter(str.isdigit, id_host))
                             G.add_node(int(id_h))
                             throughput=jData[node_id][0][node_id+":"+str(id_h)]["Throughput"]
-                            print(throughput)
+                            #print(throughput)
                             G.add_edge(int(id_s),int(id_h),weight=throughput)
                             color_map.append('blue')
             if "link" in i:
@@ -51,7 +51,7 @@ class topologyInformationWWeight():
                     try:
                         aux_link_id=t["link-id"].split(':')
                         if(aux_link_id[0]=='host'):
-                            print(aux_link_id[0])
+                            #print(aux_link_id[0])
                             continue
                         source=t["source"]
                         try:
@@ -82,7 +82,7 @@ class topologyInformationWWeight():
                             id_d=''.join(filter(str.isdigit, dest_node))
                             aux_link_id=link_id.split(':')
                             throughput=switch["openflow:"+source_node+":"+str(aux_link_id[-1])]["Throughput"]
-                            print(throughput)
+                            #print(throughput)
                             G.add_edge(int(id_so),int(id_d),weight=throughput)
                         except:
                             print("Sem node")

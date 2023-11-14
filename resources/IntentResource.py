@@ -80,7 +80,7 @@ class IntentsResource(Resource):
             print("Updated")
             msg="There are already policies with defined priorities"
         print("Inserted")
-        client = MessageBusClient(port=6666)
+        client = MessageBusClient(host='192.168.1.70',port=6666)
         client.run_in_thread()
         client.emit(Message('speak', data={'utterance': msg},context={'context':'switch'}))
 

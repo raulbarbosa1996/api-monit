@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12a25adc-acfa-4e94-a9f9-24cc28764b1d" name="Default Changelist" comment="Monitoria de hosts activos">
+    <list default="true" id="12a25adc-acfa-4e94-a9f9-24cc28764b1d" name="Default Changelist" comment="Monitoria de hosts Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ModelTopologyWWeight.py" beforeDir="false" afterPath="$PROJECT_DIR$/ModelTopologyWWeight.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/CreateService.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/CreateService.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/Monitoring.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Monitoring.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,25 +42,21 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1ouWl6sS34fPpL6q4tMIGLqKRQx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/va-intent-networking/api-monit" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Functions" />
@@ -69,7 +67,7 @@
       <recent name="$PROJECT_DIR$/flaskext_" />
     </key>
   </component>
-  <component name="RunManager" selected="Flask server.sr-server">
+  <component name="RunManager">
     <configuration name="Flask (app.py)" type="Python.FlaskServer" temporary="true" nameIsGenerated="true">
       <module name="sr-server" />
       <option name="target" value="$PROJECT_DIR$/app.py" />
@@ -115,12 +113,6 @@
       <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Flask server.Flask (run.py)" />
-        <item itemvalue="Flask server.Flask (app.py)" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -176,7 +168,31 @@
       <workItem from="1634804345624" duration="17729000" />
       <workItem from="1634892640414" duration="8255000" />
       <workItem from="1635153496412" duration="17937000" />
-      <workItem from="1635324300716" duration="417000" />
+      <workItem from="1635324300716" duration="18373000" />
+      <workItem from="1635411729858" duration="10292000" />
+      <workItem from="1635495912151" duration="10028000" />
+      <workItem from="1635932694519" duration="14375000" />
+      <workItem from="1636121732997" duration="3178000" />
+      <workItem from="1636553407341" duration="9527000" />
+      <workItem from="1636624010889" duration="13409000" />
+      <workItem from="1637145680191" duration="1236000" />
+      <workItem from="1637231290536" duration="1469000" />
+      <workItem from="1637313836927" duration="607000" />
+      <workItem from="1637579034250" duration="1967000" />
+      <workItem from="1637680560119" duration="2812000" />
+      <workItem from="1637745401943" duration="4890000" />
+      <workItem from="1638196064067" duration="122000" />
+      <workItem from="1639066096382" duration="648000" />
+      <workItem from="1639129468619" duration="4490000" />
+      <workItem from="1639576722612" duration="1834000" />
+      <workItem from="1639994786696" duration="1213000" />
+      <workItem from="1640078882401" duration="2168000" />
+      <workItem from="1641291194250" duration="2604000" />
+      <workItem from="1643797078593" duration="605000" />
+      <workItem from="1643819360818" duration="620000" />
+      <workItem from="1644227894052" duration="78000" />
+      <workItem from="1651484968849" duration="1401000" />
+      <workItem from="1658927635547" duration="67000" />
     </task>
     <task id="LOCAL-00001" summary="Criação de serviços completa">
       <created>1628850975250</created>
@@ -199,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634827263711</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Monitoria de hosts Done">
+      <created>1635324750656</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635324750656</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,16 +238,11 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Criação de serviços completa" />
     <MESSAGE value="Monitoria de hosts activos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Monitoria de hosts activos" />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/api_monit$Flask__run_py_.coverage" NAME="Flask (run.py) Coverage Results" MODIFIED="1628261118318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/sr_server$Flask__app_py_.coverage" NAME="Flask (app.py) Coverage Results" MODIFIED="1614138992078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/sr_server$Flask__run_py_.coverage" NAME="Flask (run.py) Coverage Results" MODIFIED="1614160538788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <MESSAGE value="Monitoria de hosts Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Monitoria de hosts Done" />
   </component>
 </project>
